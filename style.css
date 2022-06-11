@@ -1,0 +1,59 @@
+/* reseting the browser default style */
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.heading{
+	margin: 10px 0;
+}
+/* SEARCH SECTION */
+.search-container{
+	background-color: #646180;
+	padding: 10px;
+}
+input{
+	width: 100%;
+	padding: 12px;
+	border: none;
+}
+/* USER LIST SECTION */
+.user-list{
+	margin-top: 20px;
+}
+li{
+	list-style: none;
+	border: 1px solid lightgrey;
+	margin-top: -1px;
+	padding: 12px;
+	text-transform: capitalize;
+	font-size: 19px;
+}
+li:hover{
+	background-color: #eeeeee;
+}
+/* USERNAME BUTTON */
+.username{
+	background-color: #646180;
+	padding: 5px;
+	border-radius: 5px;
+	color:white;
+	font-size: 12px;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width:1000px){
+	body{
+		width: 50%;
+	}
+	li{
+		font-size: 15px;
+	}
+}
